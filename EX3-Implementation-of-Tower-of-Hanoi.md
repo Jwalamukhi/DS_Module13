@@ -5,9 +5,13 @@ To write a C program to implement Tower of Hanoi
 
 ## Algorithm
 1.Let TOH(n, source, destination,auxiliary) represent the function to move n disks from source to destination using auxiliary as a helper.
+
 2.When n == 0, the function returns.This acts as the base case, stopping further recursion.
+
 3. Move n-1 disks from source x to auxiliary z using destination y.
-4. Move the largest remaining disk (disk n) from x to y. 
+   
+4. Move the largest remaining disk (disk n) from x to y.
+  
 5. Move the n-1 disks from auxiliary z to destination y using source x.
 
   
