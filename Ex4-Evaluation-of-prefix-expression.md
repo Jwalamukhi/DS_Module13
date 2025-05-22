@@ -51,8 +51,7 @@ int pop()
 
 void evalprefix(char p[50])
 {
-    //Write your code here 
-    int a,b,c,i;
+   
     for(i=strlen(p)-1;i>=0;i--)
 	{
 		
